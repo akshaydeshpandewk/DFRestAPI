@@ -14,7 +14,7 @@ namespace DFRestAPI.Controllers
         [AcceptVerbs("GET")]
         public IHttpActionResult GetDashboardFrameworkLayout()
         {
-            return  Ok(true); ;
+            return  Ok(false); ;
         }
     }
 }
